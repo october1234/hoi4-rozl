@@ -44,7 +44,7 @@ units = {
 			name_order = 3
 		}
 		location = 7186
-		division_template = "Qafar Sefari"
+		division_template = "國中部"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1
 
@@ -56,7 +56,7 @@ units = {
 			name_order = 4
 		}
 		location = 5041
-		division_template = "Qafar Sefari"
+		division_template = "國中部"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1
 
