@@ -1,0 +1,15 @@
+version="0.1.1"
+tags={
+	"Alternative History"
+	"Gameplay"
+	"Map"
+	"National Focuses"
+	"Technologies"
+	"Events"
+	"Ideologies"
+	"Military"
+	"Sound"
+	"Utilities"
+}
+name="中崙共和國"
+supported_version="1.16.9"
