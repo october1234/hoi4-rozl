@@ -1,2 +1,2 @@
-graphical_culture = western_european_gfx
-color = { 133 42 62 }
+graphical_culture = asian_gfx
+color RGB = { 252 139 18 }

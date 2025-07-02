@@ -1,79 +1,86 @@
 ﻿
-division_template = {
-	name = "國中部"
-	division_names_group = RZL_INF_01
-	regiments = {
-		irregular_infantry = { x = 0 y = 0 }
-		irregular_infantry = { x = 0 y = 1 }
-		irregular_infantry = { x = 1 y = 0 }
-		irregular_infantry = { x = 1 y = 1 }
-	}
-	support = {
-	}
-}
+# division_template = {
+# 	name = "國中"
+# 	regiments = {
+# 		infantry = { x = 0 y = 0 }
+# 		infantry = { x = 0 y = 1 }
+# 		infantry = { x = 0 y = 2 }
+# 		infantry = { x = 1 y = 0 }
+# 		infantry = { x = 1 y = 1 }
+# 		infantry = { x = 1 y = 2 }
+# 		infantry = { x = 2 y = 0 }
+# 		infantry = { x = 2 y = 1 }
+# 		infantry = { x = 2 y = 2 }
+# 		artillery  = { x = 3 y = 0 }
+# 		artillery  = { x = 3 y = 1 }
+# 		artillery  = { x = 3 y = 2 }
+# 	}
+# 	support = {
+# 		engineer = { x = 0 y = 0 }
+# 	}
+# }
 
 units = {
-
-	division = { # "1 Aussa Yekilili Sefari"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 7186
-		division_template = "國中部"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1
-
-	}
-
-	division = { # "1 Dessie Yekilili Sefari"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 2
-		}
-		location = 7186
-		division_template = "國中部"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1
-
-	}
-
-	division = { # "1 Qafar Yekilili Sefari"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 3
-		}
-		location = 7186
-		division_template = "國中部"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1
-
-	}
-
-	division = { # "1 Danakil Yekilili Sefari"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
-		location = 5041
-		division_template = "國中部"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1
-
-	}
-
-
+	# division = {
+	# 	name = "701"
+	# 	location = 7186 #Taipei
+	# 	division_template = "國中"
+	# 	start_experience_factor = 0.1
+	# 	start_equipment_factor = 1
+	# }
+	# division = {
+	# 	name = "702"
+	# 	location = 7186 #Taipei
+	# 	division_template = "國中"
+	# 	start_experience_factor = 0.1
+	# 	start_equipment_factor = 1
+	# }
+	# division = {
+	# 	name = "703"
+	# 	location = 7186 #Taipei
+	# 	division_template = "國中"
+	# 	start_experience_factor = 0.1
+	# 	start_equipment_factor = 1
+	# }
+	# division = {
+	# 	name = "704"
+	# 	location = 7186 #Taipei
+	# 	division_template = "國中"
+	# 	start_experience_factor = 0.1
+	# 	start_equipment_factor = 1
+	# }
+	# division = {
+	# 	name = "705"
+	# 	location = 7186 #Taipei
+	# 	division_template = "國中"
+	# 	start_experience_factor = 0.1
+	# 	start_equipment_factor = 1
+	# }
+	# division = {
+	# 	name = "706"
+	# 	location = 7186 #Taipei
+	# 	division_template = "國中"
+	# 	start_experience_factor = 0.1
+	# 	start_equipment_factor = 1
+	# }
+	# division = {
+	# 	name = "707"
+	# 	location = 7186 #Taipei
+	# 	division_template = "國中"
+	# 	start_experience_factor = 0.1
+	# 	start_equipment_factor = 1
+	# }
 }
 
 ### Starting Production ###
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
-			type = infantry_equipment_0
+			type = infantry_equipment_2
 			creator = "RZL"
 		}
-		requested_factories = 1
-		progress = 0.50
-		efficiency = 80
+		requested_factories = 5
+		progress = 1.0
+		efficiency = 150
 	}
 }

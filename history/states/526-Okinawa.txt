@@ -1,33 +1,33 @@
-state=
-{
-	id=524
-	name="STATE_524"
-	manpower = 233554700
+
+state={
+	id=526
+	name="STATE_526"
+	manpower = 5780000
 
 	state_category = megalopolis
-	history=
-	{
+
+	history={
 		owner = RZL
 		add_core_of = RZL
+		add_core_of = JPN
 		buildings = {
-			infrastructure = 5 #was: 5
+			infrastructure = 5
 			arms_factory = 10
 			industrial_complex = 10
 			air_base = 6
-			12068 = {
+			11932 = {
 				naval_base = 10
 			}
+
 		}
 		victory_points = {
-			7186 5
-		}
-		victory_points = {
-			12068 1
+			11932 1
 		}
 	}
+
 	provinces={
-		1091 1175 4096 7186 7214 9955 11914 11959 12027 12068
-		}
+		1123 7115 10124 11932
+	}
 
 	local_supplies=0.0
 }

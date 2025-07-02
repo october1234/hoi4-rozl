@@ -3,57 +3,78 @@ capital = 524
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_mountaineers = 1
+	tech_trucks = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	basic_train = 1
+	mobile_warfare = 1
+	trade_interdiction = 1
+	formation_flying = 1
+	synth_oil_experiments = 1
+	fuel_silos = 1
+	fuel_refining = 1
+
+	# Infantry
+	interwar_artillery = 1
+	interwar_antitank = 1
+	infantry_weapons2 = 1
+	improved_infantry_weapons = 1
+	support_weapons = 1
+	support_weapons2 = 1
+	paratroopers = 1
+
+	# Doctrines
+	delay = 1
+	elastic_defence = 1
+	armored_spearhead = 1
+	schwerpunk = 1
+	blitzkrieg = 1
+	convoy_interdiction_ti = 1
+	unrestricted_submarine_warfare = 1
+	raider_patrols = 1
+
+	# Air
+	formation_flying = 1
+	dive_bombing = 1
+	direct_ground_support = 1
+
+	# Electronics
+	electronic_mechanical_engineering = 1
+	radio = 1
+	cavity_magnatron = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	basic_encryption = 1
+	basic_decryption = 1
+
+	# Industry
+	basic_machine_tools = 1
+	improved_machine_tools = 1
+	advanced_machine_tools = 1
+	oil_processing = 1
+	fuel_refining2 = 1
+	construction1 = 1
+	construction2 = 1
+	construction3 = 1
+	construction4 = 1
+	dispersed_industry = 1
+	dispersed_industry2 = 1
+	dispersed_industry3 = 1
+	dispersed_industry4 = 1
+	basic_fortification_tech = 1
 }
+
+set_research_slots = 5
 
 set_convoys = 20
-
-1939.1.1 = {
-
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = large_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-
-	set_technology = {
-		tech_support = 1
-		tech_recon = 1
-		support_weapons = 1
-		gw_artillery = 1
-
-		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
-		fleet_in_being = 1
-		battlefleet_concentration = 1
-		convoy_sailing = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		mechanical_computing = 1
-		computing_machine = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-	}
-	complete_special_project = {
-		project = sp:sp_air_radar
-	}
-}
-
+set_stability = 1
+set_war_support = 1
 
 set_politics = {
 	ruling_party = communism
@@ -63,33 +84,19 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 5
-	fascism = 5
-	communism = 85
-	neutrality = 5
+	democratic = 0
+	fascism = 0
+	communism = 100
+	neutrality = 0
 }
 
-1939.1.1 = {
-	set_politics = {
-		ruling_party = communism
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-
-	set_popularities = {
-		democratic = 5
-		fascism = 5
-		communism = 85
-		neutrality = 5
-	}
-}
+set_oob = "RZL_1936"
 
 create_country_leader = {
-	name = "LPY"
-	desc = ""
-	picture = gfx/leaders/CHI/Portrait_China_Chiang_Kai_Shek.dds
-	ideology = despotism
+	name = "李晨睿"
+	desc = "中崙社會主義共和國國家常務委員會主席"
+	picture = gfx/leaders/RZL/Leader.dds
+	ideology = marxism
 	traits = {
 		#
 	}
