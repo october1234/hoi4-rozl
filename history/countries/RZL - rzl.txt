@@ -93,7 +93,7 @@ set_popularities = {
 set_oob = "RZL_1936"
 
 create_country_leader = {
-	name = "李晨睿"
+	name = "李晨睿" # 李宥璿 (備)
 	desc = "中崙社會主義共和國國家常務委員會主席"
 	picture = gfx/leaders/RZL/Leader.dds
 	ideology = marxism
